@@ -15,7 +15,10 @@ body {
     margin: 0;
 
 }
-
+.cabecalho-lista a{
+    text-decoration: none; 
+    color: white;
+}
 .cabecalho-item {
     display: block;
     margin: 0 16px;
@@ -63,4 +66,14 @@ body {
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+    background-color: rgb(231, 10, 143);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+
 }
